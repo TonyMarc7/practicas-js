@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Incorporar Calculadora en Pag.
+    <input type="button" value="usar calculadora" onclick="open('ej10.html','calculadora', 'width=270,height=275,toolbar=no, statusbar=no,menubar=no,titlebar=no')"/> -->
+
+    <div class="calculadora">
+        <p id="pantalla">0</p>
+        <p>
+            <input type='button' value='CE' class="largo" onclick="borradoParcial()"></input>
+            <input type='button' value='C' class="largo" onclick="borradoTotal()"></input>
+            <input type='button' value='Del' class="largo" onclick="borrar()"></input>
+        </p>
+        <p>
+            <input type='button' value='7' onclick="numero('7')"></input>
+            <input type='button' value='8' onclick="numero('8')"></input>
+            <input type='button' value='9' onclick="numero('9')"></input>
+            <input type='button' value='/' onclick="operar('/')"></input>
+            <input type='button' value='Raiz' onclick="raiz()"></input>
+        </p>
+        <p>
+            <input type='button' value='4' onclick="numero('4')"></input>
+            <input type='button' value='5' onclick="numero('5')"></input>
+            <input type='button' value='6' onclick="numero('6')"></input>
+            <input type='button' value='*' onclick="operar('*')"></input>
+            <input type='button' value='%' onclick="porcent()"></input>
+        </p>
+        <p>
+            <input type='button' value='1' onclick="numero('1')"></input>
+            <input type='button' value='2' onclick="numero('2')"></input>
+            <input type='button' value='3' onclick="numero('3')"></input>
+            <input type='button' value='-' onclick="operar('-')"></input>
+            <input type='button' value='1/x' onclick="inve()"></input>
+        </p>
+        <p>
+            <input type='button' value='0' class="medio" onclick="numero('0')"></input>
+            <input type='button' value='.' class="medio" onclick="numero('.')"></input>
+            <input type='button' value='+' class="medio" onclick="operar('+')"></input>
+            <input type='button' value='=' class="medio" onclick="igual('=')"></input>
+        </p>
+    </div>
+    <script src="use.js"></script>
+</body>
+</html>

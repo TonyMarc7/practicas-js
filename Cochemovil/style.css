@@ -1,0 +1,32 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+h1 {
+    font:bold 1.5em arial;
+    margin-left: 190px;
+    padding: 1em;
+}
+.visor {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+#fondoUno {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#fondoDos {
+    position: absolute;
+    top: 0;
+    left: 450px;
+}
+#coche {
+    position: absolute;
+    top: 180px;
+    left: 120px;
+}
